@@ -1,3 +1,4 @@
 #!/bin/bash
 
 cmake .
+cp bullet3-2.83.6.tar.gz project_bullet-prefix/src/
