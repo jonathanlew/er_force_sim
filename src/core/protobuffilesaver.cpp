@@ -20,7 +20,7 @@
 
 #include "protobuffilesaver.h"
 
-#include <QDebug>
+#include <QtCore/QDebug>
 
 ProtobufFileSaver::ProtobufFileSaver(QString filename, QString filePrefix, QObject *parent) :
     QObject(parent),

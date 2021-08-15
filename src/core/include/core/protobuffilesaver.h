@@ -22,11 +22,11 @@
 #define PROTOBUFFILESAVER_H
 
 #include <google/protobuf/message.h>
-#include <QDataStream>
-#include <QFile>
-#include <QMutex>
-#include <QObject>
-#include <QString>
+#include <QtCore/QDataStream>
+#include <QtCore/QFile>
+#include <QtCore/QMutex>
+#include <QtCore/QObject>
+#include <QtCore/QString>
 
 class ProtobufFileSaver : QObject
 {

@@ -21,8 +21,8 @@
 #ifndef TIMER_H
 #define TIMER_H
 
-#include <QtGlobal>
-#include <QObject>
+#include <QtCore/QtGlobal>
+#include <QtCore/QObject>
 
 class Timer : public QObject
 {

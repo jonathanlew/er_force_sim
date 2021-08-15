@@ -22,7 +22,7 @@
 #define FIELDTRANSFORM_H
 
 #include <array>
-#include <QPointF>
+#include <QtCore/QPointF>
 
 class FieldTransform
 {

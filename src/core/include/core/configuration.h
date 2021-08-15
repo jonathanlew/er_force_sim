@@ -21,10 +21,10 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
-#include <QString>
+#include <QtCore/QString>
 #include <google/protobuf/message.h>
 #include <google/protobuf/text_format.h>
-#include <QFile>
+#include <QtCore/QFile>
 #include <iostream>
 
 #include "config/config.h"

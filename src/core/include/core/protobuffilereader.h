@@ -22,8 +22,8 @@
 #define PROTOBUFFILEREADER_H
 
 #include <google/protobuf/message.h>
-#include <QDataStream>
-#include <QFile>
+#include <QtCore/QDataStream>
+#include <QtCore/QFile>
 
 class ProtobufFileReader : public QObject
 {
