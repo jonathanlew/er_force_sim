@@ -16,4 +16,5 @@ cc_library(
     name = "core_includes_for_external",
     hdrs = glob(["include/core/*.h"]),
     strip_include_prefix = "include/",
+    deps = ["core"],
 )

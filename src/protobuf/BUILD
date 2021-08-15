@@ -37,4 +37,7 @@ cc_library(
     name = "protobuf_includes_for_external",
     hdrs = glob(["include/protobuf/*.h"]),
     strip_include_prefix = "include/",
+    deps = [
+"protobuf"
+            ],
 )
