@@ -1,5 +1,6 @@
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 
 # Qt bazel rules from https://github.com/justbuchanan/bazel_rules_qt
 git_repository(
@@ -29,3 +30,14 @@ load("@rules_proto//proto:repositories.bzl", "rules_proto_dependencies", "rules_
 rules_proto_dependencies()
 
 rules_proto_toolchains()
+
+maybe(
+    git_repository,
+    name = "rules_third_party",
+    remote = "https://github.com/DraconicEnt/rules_third_party.git",
+    commit = "8d0ba00f9874588c1ea38d1be2859060ac8c8516"
+)
+
+load("@rules_third_party//libraries:bullet.bzl", "bullet")
+
+bullet()
