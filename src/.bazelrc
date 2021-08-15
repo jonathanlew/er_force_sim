@@ -1,0 +1,19 @@
+# We want bazel to output the results of our gtests
+test --test_output=all
+
+# Add warnings to Thunderbots code only
+build --per_file_copt=//software/.*,//shared/.*,//firmware/.*@-Wall,-Wextra,-Wconversion,-Wno-unused-parameter
+
+# Warn variable length arrays only when compiling cpp
+build --per_file_copt=.*\.cpp@-Wvla
+
+# Use a local directory as a remote cache. This shares artifacts when switching
+# between git branches or workspaces for the same project.
+# See https://docs.bazel.build/versions/master/remote-caching.html#disk-cache
+#build --disk_cache=~/.cache/thunderbots_bazel_disk_cache
+
+# The XDR_RUNTIME_DIR and DISPLAY environment variables must be passed to the tests
+# so that our GUIs can be enabled for simulated tests. This is needed for Qt
+# to find the X-Window system and create windows
+build --test_env=XDG_RUNTIME_DIR
+build --test_env=DISPLAY
