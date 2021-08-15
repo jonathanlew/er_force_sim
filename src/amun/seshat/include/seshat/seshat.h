@@ -22,8 +22,8 @@
 #define AMUN_SESHAT_SESHAT_H
 
 #include <QObject>
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 #include "combinedlogwriter.h"
 
 class TimedStatusSource;

@@ -23,7 +23,7 @@
 
 #include <QPlainTextEdit>
 #include <QContiguousCache>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class LogWidget : public QPlainTextEdit
 {

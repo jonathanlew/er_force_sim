@@ -23,8 +23,8 @@
 
 #include <QSet>
 #include <QWidget>
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 
 class QStandardItem;
 class QStandardItemModel;

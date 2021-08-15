@@ -20,8 +20,8 @@
 
 #include "fieldwidget.h"
 #include "guihelper/guitimer.h"
-#include "protobuf/command.pb.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/geometry.h"
 #include "savesituation.h"
 #include <QContextMenuEvent>
 #include <QMenu>

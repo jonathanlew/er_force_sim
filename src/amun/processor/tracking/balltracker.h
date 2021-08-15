@@ -25,8 +25,8 @@
 #include "core/fieldtransform.h"
 #include "kalmanfilter.h"
 #include "abstractballfilter.h"
-#include "protobuf/debug.pb.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/debug.pb.h"
+#include "src/protobuf/world.pb.h"
 
 class FlyFilter;
 class GroundFilter;

@@ -22,7 +22,7 @@
 #include "core/rng.h"
 #include "core/timer.h"
 #include "core/coordinates.h"
-#include "protobuf/ssl_wrapper.pb.h"
+#include "src/protobuf/ssl_wrapper.pb.h"
 #include "protobuf/geometry.h"
 #include "simball.h"
 #include "simfield.h"

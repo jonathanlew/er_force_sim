@@ -22,8 +22,8 @@
 #define LOGSUITE_H
 
 #include <QObject>
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 #include <QAction>
 
 class Logsuite: public QObject {

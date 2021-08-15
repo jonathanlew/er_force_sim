@@ -21,8 +21,8 @@
 #include "gtest/gtest.h"
 #include "core/coordinates.h"
 #include "core/vector.h"
-#include "protobuf/ssl_simulation_control.pb.h"
-#include "protobuf/status.h"
+#include "src/protobuf/ssl_simulation_control.pb.h"
+#include "src/protobuf/status.h"
 
 TEST(Coordinates, Pairs) {
     std::pair<float, float> res;

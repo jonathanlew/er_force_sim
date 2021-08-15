@@ -24,8 +24,8 @@
 #include <QWidget>
 #include <QStringList>
 #include <memory>
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 
 namespace Ui {
 class ReplayTeamWidget;

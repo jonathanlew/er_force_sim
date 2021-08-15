@@ -21,8 +21,8 @@
 #ifndef SIMULATORWIDGET_H
 #define SIMULATORWIDGET_H
 
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 #include <QWidget>
 
 namespace Ui {

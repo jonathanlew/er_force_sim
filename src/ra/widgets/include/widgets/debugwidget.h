@@ -23,7 +23,7 @@
 
 #include <QWidget>
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 namespace Ui {
 class DebugWidget;

@@ -21,7 +21,7 @@
 #ifndef TIMINGWIDGET_H
 #define TIMINGWIDGET_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QStandardItemModel>
 #include <QWidget>
 

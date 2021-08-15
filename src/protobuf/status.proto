@@ -1,13 +1,13 @@
 syntax = "proto2";
 option cc_enable_arenas = true;
 
-import "protobuf/debug.proto";
-import "protobuf/gamestate.proto";
-//import "protobuf/deprecated/gamestate.proto";
-import "protobuf/robot.proto";
-import "protobuf/world.proto";
-import "protobuf/userinput.proto";
-import "protobuf/logfile.proto";
+import "src/protobuf/debug.proto";
+import "src/protobuf/gamestate.proto";
+//import "src/protobuf/deprecated/gamestate.proto";
+import "src/protobuf/robot.proto";
+import "src/protobuf/world.proto";
+import "src/protobuf/userinput.proto";
+import "src/protobuf/logfile.proto";
 
 package amun;
 

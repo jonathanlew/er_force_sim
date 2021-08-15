@@ -22,9 +22,9 @@
 
 #include <QObject>
 
-#include "protobuf/command.h"
-#include "protobuf/status.h"
-#include "protobuf/sslsim.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/sslsim.h"
 
 class QUdpSocket;
 class Timer;

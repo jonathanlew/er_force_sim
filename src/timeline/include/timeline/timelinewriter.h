@@ -21,7 +21,7 @@
 #ifndef TIMELINEWRITER_H
 #define TIMELINEWRITER_H
 
-#include "protobuf/timeline.pb.h"
+#include "src/protobuf/timeline.pb.h"
 #include <QObject>
 #include <QString>
 #include <QDataStream>

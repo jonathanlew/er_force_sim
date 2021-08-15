@@ -25,10 +25,10 @@
 #include <QVector>
 #include <memory>
 #include "externalgamecontroller.h"
-#include "protobuf/status.h"
-#include "protobuf/command.h"
-#include "protobuf/ssl_gc_ci.pb.h"
-#include "protobuf/ssl_game_controller_auto_ref.pb.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/ssl_gc_ci.pb.h"
+#include "src/protobuf/ssl_game_controller_auto_ref.pb.h"
 #include "core/vector.h"
 
 class Timer;

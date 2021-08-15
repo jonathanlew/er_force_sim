@@ -21,7 +21,7 @@
 #ifndef DEBUGMODEL_H
 #define DEBUGMODEL_H
 
-#include "protobuf/status.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <QStandardItemModel>
 #include <QRegularExpression>
 

@@ -24,7 +24,7 @@
 #include "guihelper/guitimer.h"
 #include "ui_plotter.h"
 #include "google/protobuf/descriptor.h"
-#include "protobuf/status.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <cmath>
 #include <QComboBox>
 #include <QMenu>

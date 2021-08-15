@@ -21,11 +21,11 @@
 #include "core/timer.h"
 #include "core/run_out_of_scope.h"
 #include "core/coordinates.h"
-#include "protobuf/grsim_commands.pb.h"
-#include "protobuf/grsim_replacement.pb.h"
-#include "protobuf/geometry.h"
-#include "protobuf/ssl_simulation_robot_feedback.pb.h"
-#include "protobuf/ssl_simulation_custom_erforce_robot_spec.pb.h"
+#include "src/protobuf/grsim_commands.pb.h"
+#include "src/protobuf/grsim_replacement.pb.h"
+#include "src/protobuf/geometry.h"
+#include "src/protobuf/ssl_simulation_robot_feedback.pb.h"
+#include "src/protobuf/ssl_simulation_custom_erforce_robot_spec.pb.h"
 #include <QUdpSocket>
 #include <QNetworkDatagram>
 #include <cmath>

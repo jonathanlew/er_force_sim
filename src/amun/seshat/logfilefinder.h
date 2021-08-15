@@ -23,8 +23,8 @@
 
 #include <QString>
 #include <memory>
-#include "protobuf/logfile.pb.h"
-#include "protobuf/status.h"
+#include "src/protobuf/logfile.pb.h"
+#include "src/protobuf/status.h"
 
 class LogFileReader;
 

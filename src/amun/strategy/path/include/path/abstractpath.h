@@ -22,7 +22,7 @@
 #define ABSTRACTPATH_H
 
 #include "core/vector.h"
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include "obstacles.h"
 #include "worldinformation.h"
 #include "pathdebug.h"

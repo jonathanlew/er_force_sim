@@ -23,8 +23,8 @@
 
 #include "abstractballfilter.h"
 #include "quadraticleastsquaresfitter.h"
-#include "protobuf/ssl_detection.pb.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/ssl_detection.pb.h"
+#include "src/protobuf/world.pb.h"
 
 struct ChipDetection {
     ChipDetection(float s, float as, float t, Eigen::Vector2f bp, Eigen::Vector2f dp,  float a, Eigen::Vector2f r, quint32 cid, bool cc, bool lc)

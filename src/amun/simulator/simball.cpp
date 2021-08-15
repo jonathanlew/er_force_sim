@@ -23,7 +23,7 @@
 #include "core/rng.h"
 #include "core/coordinates.h"
 #include "core/vector.h"
-#include "protobuf/ssl_detection.pb.h"
+#include "src/protobuf/ssl_detection.pb.h"
 #include <cmath>
 #include <QtCore/QDebug>
 

@@ -21,7 +21,7 @@
 #ifndef ROBOT_H
 #define ROBOT_H
 
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 
 // used for replay of vision logs
 void robotSetDefault(robot::Specs *specs);

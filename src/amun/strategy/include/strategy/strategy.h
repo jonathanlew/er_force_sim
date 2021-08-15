@@ -23,9 +23,9 @@
 
 
 #include "gamecontroller/gamecontrollerconnection.h"
-#include "protobuf/command.h"
-#include "protobuf/robotcommand.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/robotcommand.h"
+#include "src/protobuf/status.h"
 #include "strategy/script/scriptstate.h"
 #include "strategy/script/strategytype.h"
 #include <QString>

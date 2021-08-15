@@ -24,9 +24,9 @@
 #include "internalreferee/internalreferee.h"
 #include "seshat/logfilewriter.h"
 #include "seshat/backlogwriter.h"
-#include "protobuf/command.h"
-#include "protobuf/status.h"
-#include "protobuf/ssl_referee_game_event.pb.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/ssl_referee_game_event.pb.h"
 #include <QObject>
 #include <QString>
 #include <QDir>

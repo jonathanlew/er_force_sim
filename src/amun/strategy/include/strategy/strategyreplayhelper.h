@@ -25,8 +25,8 @@
 #include <QWaitCondition>
 #include <QObject>
 
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 
 class Strategy;
 

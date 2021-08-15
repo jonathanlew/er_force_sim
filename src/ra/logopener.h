@@ -25,8 +25,8 @@
 #include <QList>
 #include <QMap>
 
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 
 // Disable for now in order to be able to compile
 class QMenu;

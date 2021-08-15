@@ -22,7 +22,7 @@
 #define TESTTOOLS_H
 
 #include <QString>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 namespace TestTools {
     std::pair<int, bool> toExitCode(const QString &str);

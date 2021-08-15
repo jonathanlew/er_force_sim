@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "config/config.h"
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include "robotselectionwidget.h"
 #include "robotspecsdialog.h"
 #include "robotwidget.h"

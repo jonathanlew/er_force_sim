@@ -23,8 +23,8 @@
 
 #include <QString>
 #include <QPlainTextEdit>
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 
 class DebuggerConsole : public QPlainTextEdit
 {

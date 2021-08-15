@@ -21,7 +21,7 @@
 #ifndef ROBOTSPECSDIALOG_H
 #define ROBOTSPECSDIALOG_H
 
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include <QDialog>
 
 class QStandardItem;

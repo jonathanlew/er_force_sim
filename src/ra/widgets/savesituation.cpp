@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "savesituation.h"
-#include "protobuf/world.pb.h"
-#include "protobuf/ssl_referee.h"
+#include "src/protobuf/world.pb.h"
+#include "src/protobuf/ssl_referee.h"
 #include <QFileDialog>
 #include <QFile>
 #include <QTextStream>

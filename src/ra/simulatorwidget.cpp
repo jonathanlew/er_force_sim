@@ -20,7 +20,7 @@
 
 #include "simulatorwidget.h"
 #include "ui_simulatorwidget.h"
-#include "protobuf/command.pb.h"
+#include "src/protobuf/command.pb.h"
 #include <QCheckBox>
 #include <QDoubleSpinBox>
 #include <QAction>

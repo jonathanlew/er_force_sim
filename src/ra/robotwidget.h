@@ -21,7 +21,7 @@
 #ifndef ROBOTWIDGET_H
 #define ROBOTWIDGET_H
 
-#include "protobuf/status.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <QActionGroup>
 #include <QLabel>
 #include <QToolButton>

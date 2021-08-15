@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "refereestatuswidget.h"
-#include "protobuf/gamestate.pb.h"
+#include "src/protobuf/gamestate.pb.h"
 
 #include "ui_refereestatuswidget.h"
 

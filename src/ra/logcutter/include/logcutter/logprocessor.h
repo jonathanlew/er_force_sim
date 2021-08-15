@@ -21,7 +21,7 @@
 #ifndef LOGPROCESSOR_H
 #define LOGPROCESSOR_H
 
-#include "protobuf/logfile.pb.h"
+#include "src/protobuf/logfile.pb.h"
 
 #include <QThread>
 #include <QList>

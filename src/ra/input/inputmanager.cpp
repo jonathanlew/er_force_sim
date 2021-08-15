@@ -21,7 +21,7 @@
 #include "inputmanager.h"
 #include "config/config.h"
 #include "keyboard.h"
-#include "protobuf/command.pb.h"
+#include "src/protobuf/command.pb.h"
 #include <QGuiApplication>
 #include <QMutableMapIterator>
 #include <QTimer>

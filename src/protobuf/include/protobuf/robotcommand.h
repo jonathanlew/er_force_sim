@@ -21,7 +21,7 @@
 #ifndef ROBOTCOMMAND_H
 #define ROBOTCOMMAND_H
 
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include <QtCore/QSharedPointer>
 
 //! @file robotcommand.h

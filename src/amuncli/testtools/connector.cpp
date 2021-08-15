@@ -19,9 +19,9 @@
  ***************************************************************************/
 
 #include "connector.h"
-#include "protobuf/command.pb.h"
-#include "protobuf/gamestate.pb.h"
-#include "protobuf/ssl_game_event_2019.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/gamestate.pb.h"
+#include "src/protobuf/ssl_game_event_2019.pb.h"
 #include "testtools.h"
 #include "config/config.h"
 #include "seshat/combinedlogwriter.h"

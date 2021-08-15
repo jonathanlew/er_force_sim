@@ -25,8 +25,8 @@
 #include <QString>
 #include <fstream>
 
-#include "protobuf/ssl_wrapper.pb.h"
-#include "protobuf/ssl_referee.pb.h"
+#include "src/protobuf/ssl_wrapper.pb.h"
+#include "src/protobuf/ssl_referee.pb.h"
 #include "messagetype.h"
 
 class VisionLogWriter: public QObject

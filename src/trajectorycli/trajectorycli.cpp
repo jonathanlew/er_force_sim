@@ -26,7 +26,7 @@
 
 #include "common.h"
 #include "core/protobuffilereader.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 
 
 // IO

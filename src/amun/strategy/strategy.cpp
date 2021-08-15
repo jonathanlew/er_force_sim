@@ -25,9 +25,9 @@
 #include "strategy/script/compilerregistry.h"
 #include "core/timer.h"
 #include "config/config.h"
-#include "protobuf/geometry.h"
-#include "protobuf/ssl_game_controller_team.pb.h"
-#include "protobuf/robot.h"
+#include "src/protobuf/geometry.h"
+#include "src/protobuf/ssl_game_controller_team.pb.h"
+#include "src/protobuf/robot.h"
 #include "google/protobuf/util/delimited_message_util.h"
 #include <QCoreApplication>
 #include <QDateTime>

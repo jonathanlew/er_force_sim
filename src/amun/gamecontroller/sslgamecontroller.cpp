@@ -20,7 +20,7 @@
 
 #include "sslgamecontroller.h"
 #include "sslvisiontracked.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/geometry.h"
 #include "core/timer.h"
 #include "core/vector.h"
 #include "core/coordinates.h"

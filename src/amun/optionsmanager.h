@@ -25,8 +25,8 @@
 #include <QMap>
 #include <string>
 
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 
 class OptionsManager : public QObject
 {

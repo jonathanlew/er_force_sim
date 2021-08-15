@@ -21,8 +21,8 @@
 #ifndef AMUNCLIENT_H
 #define AMUNCLIENT_H
 
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 
 class Amun;
 class QThread;

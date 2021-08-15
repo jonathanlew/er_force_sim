@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "referee.h"
-#include "protobuf/ssl_referee.h"
+#include "src/protobuf/ssl_referee.h"
 
 /*!
  * \class Referee

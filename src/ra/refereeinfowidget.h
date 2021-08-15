@@ -21,7 +21,7 @@
 #ifndef REFEREEINFOWIDGET_H
 #define REFEREEINFOWIDGET_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QStringList>
 #include <QWidget>
 

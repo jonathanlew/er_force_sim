@@ -22,8 +22,8 @@
 #include "commandevaluator.h"
 #include "debughelper.h"
 #include "processor.h"
-#include "protobuf/debug.pb.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/debug.pb.h"
+#include "src/protobuf/world.pb.h"
 #include <cmath>
 #include <QString>
 

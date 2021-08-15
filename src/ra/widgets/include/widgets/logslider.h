@@ -25,8 +25,8 @@
 #include <QQueue>
 #include <QTimer>
 #include <memory>
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 #include "core/timer.h"
 
 class Timer;

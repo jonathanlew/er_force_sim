@@ -21,7 +21,7 @@
 #ifndef REFEREESTATUSWIDGET_H
 #define REFEREESTATUSWIDGET_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 #include <QWidget>
 #include <QString>

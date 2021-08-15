@@ -21,9 +21,9 @@
 #ifndef TRACKER_H
 #define TRACKER_H
 
-#include "protobuf/command.pb.h"
-#include "protobuf/status.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/world.pb.h"
 #include <QMap>
 #include <QPair>
 #include <QByteArray>

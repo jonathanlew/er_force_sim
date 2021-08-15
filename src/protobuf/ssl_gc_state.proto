@@ -1,9 +1,9 @@
 syntax = "proto2";
 
-import "protobuf/ssl_game_controller_common.proto";
-import "protobuf/ssl_game_controller_geometry.proto";
-import "protobuf/ssl_game_event_2019.proto";
-import "protobuf/ssl_referee.proto";
+import "src/protobuf/ssl_game_controller_common.proto";
+import "src/protobuf/ssl_game_controller_geometry.proto";
+import "src/protobuf/ssl_game_event_2019.proto";
+import "src/protobuf/ssl_referee.proto";
 
 import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";

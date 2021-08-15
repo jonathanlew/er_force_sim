@@ -31,8 +31,8 @@
 #include "js_protobuf.h"
 #include "typescript.h"
 #include "internaldebugger.h"
-#include "protobuf/ssl_game_controller_team.pb.h"
-#include "protobuf/ssl_game_controller_auto_ref.pb.h"
+#include "src/protobuf/ssl_game_controller_team.pb.h"
+#include "src/protobuf/ssl_game_controller_auto_ref.pb.h"
 #include "v8utility.h"
 #include "strategy/script/scriptstate.h"
 

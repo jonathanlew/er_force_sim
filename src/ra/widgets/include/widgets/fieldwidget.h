@@ -22,9 +22,9 @@
 #define FIELDWIDGET_H
 
 #include "core/fieldtransform.h"
-#include "protobuf/command.h"
-#include "protobuf/status.h"
-#include "protobuf/ssl_referee.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/ssl_referee.h"
 #include <QGraphicsView>
 #include <QMap>
 #include <QHash>

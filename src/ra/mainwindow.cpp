@@ -30,7 +30,7 @@
 #include "widgets/refereestatuswidget.h"
 #include "savedirectorydialog.h"
 #include "logcutter/logcutter.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/geometry.h"
 #include "logopener.h"
 #include "loglabel.h"
 #include "logfileselectiondialog.h"

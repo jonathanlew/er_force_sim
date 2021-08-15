@@ -20,10 +20,10 @@
 
 #include "tracker.h"
 #include "balltracker.h"
-#include "protobuf/ssl_wrapper.pb.h"
+#include "src/protobuf/ssl_wrapper.pb.h"
 #include "robotfilter.h"
-#include "protobuf/debug.pb.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/debug.pb.h"
+#include "src/protobuf/geometry.h"
 #include "core/fieldtransform.h"
 #include <QDebug>
 #include <iostream>

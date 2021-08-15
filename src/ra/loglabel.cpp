@@ -18,7 +18,7 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 #include "loglabel.h"
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 void LogLabel::handleStatus(const Status& s) {
     if (s->has_pure_ui_response()) {

@@ -22,7 +22,7 @@
 #define STANDARDSAMPLER_H
 
 #include "trajectorysampler.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 
 class StandardTrajectorySample
 {

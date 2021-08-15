@@ -22,7 +22,7 @@
 #define RECEIVER_H
 
 #include <QUdpSocket>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class Timer;
 

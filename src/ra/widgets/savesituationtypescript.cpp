@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "savesituation.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/world.pb.h"
 #include "google/protobuf/util/json_util.h"
 #include <QFileDialog>
 #include <QFile>

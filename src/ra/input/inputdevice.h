@@ -21,8 +21,8 @@
 #ifndef INPUTDEVICE_H
 #define INPUTDEVICE_H
 
-#include "protobuf/robot.pb.h"
-#include "protobuf/ssl_referee.pb.h"
+#include "src/protobuf/robot.pb.h"
+#include "src/protobuf/ssl_referee.pb.h"
 #include <QObject>
 
 class InputDevice : public QObject

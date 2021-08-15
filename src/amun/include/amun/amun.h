@@ -23,8 +23,8 @@
 
 #include "strategy/script/compilerregistry.h"
 #include "gamecontroller/gamecontrollerconnection.h"
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 #include <QObject>
 #include <QSet>
 #include <memory>

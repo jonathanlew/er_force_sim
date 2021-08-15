@@ -23,7 +23,7 @@
 
 #include <QTreeView>
 #include <QHash>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class DebugModel;
 class GuiTimer;

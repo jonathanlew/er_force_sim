@@ -7,9 +7,9 @@ cc_library(
     #strip_include_prefix = "include/simulator/",
     deps = [
         ":simulator_includes",
-        "//core",
-        "//protobuf",
-        "//protobuf:protobuf_includes_for_external",
+        "//src/core",
+        "//src/protobuf",
+        "//src/protobuf:protobuf_includes_for_external",
         "@bullet",
         "@qt//:qt_core",
         "@qt//:qt_gui",
@@ -22,6 +22,6 @@ cc_library(
     hdrs = glob(["include/simulator/*.h"]),
     strip_include_prefix = "include/simulator/",
     deps = [
-        "//core:core_includes_for_external",
+        "//src/core:core_includes_for_external",
     ],
 )

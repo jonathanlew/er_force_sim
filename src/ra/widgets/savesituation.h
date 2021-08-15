@@ -21,7 +21,7 @@
 #ifndef SAVESITUATION_H
 #define SAVESITUATION_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include "fieldwidget.h"
 #include <QHash>
 

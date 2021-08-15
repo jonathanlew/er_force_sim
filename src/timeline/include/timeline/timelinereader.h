@@ -21,7 +21,7 @@
 #ifndef TIMELINEREADER_H
 #define TIMELINEREADER_H
 
-#include "protobuf/timeline.pb.h"
+#include "src/protobuf/timeline.pb.h"
 #include <QObject>
 #include <QString>
 #include <QDataStream>

@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "debughelper.h"
-#include "protobuf/debug.pb.h"
+#include "src/protobuf/debug.pb.h"
 
 /*!
  * \brief Helper function to draw a colored line in the GUI showing the playfield.

@@ -21,7 +21,7 @@
 #ifndef PATHDEBUG_H
 #define PATHDEBUG_H
 
-#include "protobuf/debug.pb.h"
+#include "src/protobuf/debug.pb.h"
 #include "core/vector.h"
 #include "boundingbox.h"
 #include "alphatimetrajectory.h"

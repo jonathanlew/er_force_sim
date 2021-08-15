@@ -21,7 +21,7 @@
 #ifndef BACKLOGWRITER_H
 #define BACKLOGWRITER_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include "statussource.h"
 #include <QContiguousCache>
 #include <QObject>

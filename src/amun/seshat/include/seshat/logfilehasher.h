@@ -22,7 +22,7 @@
 #define LOGFILEHASHER_H
 
 #include <QString>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class SeqLogFileReader;
 

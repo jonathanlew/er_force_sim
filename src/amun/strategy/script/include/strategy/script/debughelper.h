@@ -27,8 +27,8 @@
 #include <QString>
 #include <QWaitCondition>
 #include "strategytype.h"
-#include "protobuf/command.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
 
 class DebugHelper : public QObject
 {

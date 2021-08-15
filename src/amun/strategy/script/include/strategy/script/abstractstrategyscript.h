@@ -22,14 +22,14 @@
 #define ABSTRACTSTRATEGYSCRIPT_H
 
 #include "gamecontroller/gamecontrollerconnection.h"
-#include "protobuf/command.h"
-#include "protobuf/debug.pb.h"
-#include "protobuf/gamestate.pb.h"
-#include "protobuf/robot.pb.h"
-#include "protobuf/robotcommand.h"
-#include "protobuf/status.h"
-#include "protobuf/userinput.pb.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/debug.pb.h"
+#include "src/protobuf/gamestate.pb.h"
+#include "src/protobuf/robot.pb.h"
+#include "src/protobuf/robotcommand.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/userinput.pb.h"
+#include "src/protobuf/world.pb.h"
 #include "strategytype.h"
 #include <QObject>
 #include <QString>

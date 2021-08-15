@@ -1,7 +1,7 @@
 syntax="proto2";
 option cc_enable_arenas = true;
 
-import "protobuf/logfile.proto";
+import "src/protobuf/logfile.proto";
 
 package timeline;
 

@@ -24,10 +24,10 @@
 #include "core/timer.h"
 #include "core/configuration.h"
 #include "core/coordinates.h"
-#include "protobuf/geometry.h"
-#include "protobuf/command.h"
-#include "protobuf/status.h"
-#include "protobuf/ssl_wrapper.pb.h"
+#include "src/protobuf/geometry.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/ssl_wrapper.pb.h"
 #include "visionlog/visionlogwriter.h"
 
 #include <QObject>

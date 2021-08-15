@@ -23,7 +23,7 @@
 
 #include <QStringList>
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class DebugHelper;
 class ProtobufFileSaver;

@@ -25,7 +25,7 @@
 #include <QVector>
 #include <vector>
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 
 class TimingStatistics : public QObject
 {

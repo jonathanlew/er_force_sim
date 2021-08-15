@@ -21,7 +21,7 @@
 #ifndef SIMBALL_H
 #define SIMBALL_H
 
-#include "protobuf/command.pb.h"
+#include "src/protobuf/command.pb.h"
 #include "protobuf/sslsim.h"
 #include <btBulletDynamicsCommon.h>
 #include "simfield.h"

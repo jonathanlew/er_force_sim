@@ -20,8 +20,8 @@
 
 #include "teamwidget.h"
 #include "config/config.h"
-#include "protobuf/command.pb.h"
-#include "protobuf/status.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <QAction>
 #include <QBoxLayout>
 #include <QContextMenuEvent>

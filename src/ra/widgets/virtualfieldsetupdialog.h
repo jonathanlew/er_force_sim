@@ -23,7 +23,7 @@
 
 #include <QDialog>
 #include <array>
-#include "protobuf/world.pb.h"
+#include "src/protobuf/world.pb.h"
 
 namespace Ui {
 class VirtualFieldSetupDialog;

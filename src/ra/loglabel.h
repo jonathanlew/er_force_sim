@@ -20,7 +20,7 @@
 #ifndef RALOGLABEL_H
 #define RALOGLABEL_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QLabel>
 #include <QString>
 

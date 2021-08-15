@@ -22,8 +22,8 @@
 #include "seshat/seqlogfilereader.h"
 #include "seshat/logfilewriter.h"
 #include "seshat/logfilehasher.h"
-#include "protobuf/gamestate.pb.h"
-#include "protobuf/status.pb.h"
+#include "src/protobuf/gamestate.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <QSemaphore>
 #include <QMutex>
 #include <QLinkedList>

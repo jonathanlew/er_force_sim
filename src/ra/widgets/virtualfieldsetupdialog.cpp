@@ -20,7 +20,7 @@
 
 #include "virtualfieldsetupdialog.h"
 #include "ui_virtualfieldsetupdialog.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/geometry.h"
 #include <QCheckBox>
 
 VirtualFieldSetupDialog::VirtualFieldSetupDialog(const VirtualFieldConfiguration &start, QWidget *parent) :

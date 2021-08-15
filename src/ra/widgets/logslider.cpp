@@ -20,7 +20,7 @@
 
 #include "logslider.h"
 #include "ui_logslider.h"
-#include "protobuf/command.h"
+#include "src/protobuf/command.h"
 
 #include <QThread>
 #include <QStyleOptionButton>

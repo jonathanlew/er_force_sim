@@ -1,8 +1,8 @@
 syntax = "proto2";
 option cc_enable_arenas = true;
 
-import "protobuf/robot.proto";
-import "protobuf/command.proto";
+import "src/protobuf/robot.proto";
+import "src/protobuf/command.proto";
 package amun;
 
 // for strategy

@@ -21,9 +21,9 @@
 #ifndef SPEEDTRACKER_H
 #define SPEEDTRACKER_H
 
-#include "protobuf/command.pb.h"
-#include "protobuf/status.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/world.pb.h"
 #include <memory>
 #include <QMap>
 #include <QPair>

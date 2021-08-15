@@ -21,7 +21,7 @@
 #ifndef CONFIGDIALOG_H
 #define CONFIGDIALOG_H
 
-#include "protobuf/command.h"
+#include "src/protobuf/command.h"
 #include "robotuiaction.h"
 #include <QDialog>
 

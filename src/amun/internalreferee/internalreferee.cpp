@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "internalreferee.h"
-#include "protobuf/ssl_referee.h"
+#include "src/protobuf/ssl_referee.h"
 
 InternalReferee::InternalReferee(QObject *parent) :
     QObject(parent)

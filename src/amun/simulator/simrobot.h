@@ -21,8 +21,8 @@
 #ifndef SIMROBOT_H
 #define SIMROBOT_H
 
-#include "protobuf/command.pb.h"
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include "protobuf/sslsim.h"
 #include <QtCore/QList>
 #include <btBulletDynamicsCommon.h>

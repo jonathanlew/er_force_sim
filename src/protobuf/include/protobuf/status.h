@@ -21,7 +21,7 @@
 #ifndef STATUS_H
 #define STATUS_H
 
-#include "protobuf/status.pb.h"
+#include "src/protobuf/status.pb.h"
 #include <QtCore/QSharedPointer>
 
 //! @file status.h

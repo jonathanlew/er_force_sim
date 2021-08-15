@@ -27,8 +27,8 @@
 
 #include "statussource.h"
 #include "bufferedstatussource.h"
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 #include "core/timer.h"
 
 class TimedStatusSource : public QObject

@@ -21,7 +21,7 @@
 #ifndef SIMULATORCONFIGWIDGET_H
 #define SIMULATORCONFIGWIDGET_H
 
-#include "protobuf/command.h"
+#include "src/protobuf/command.h"
 #include <QWidget>
 
 namespace Ui {

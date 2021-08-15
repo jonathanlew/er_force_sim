@@ -20,7 +20,7 @@
 
 #include "replayteamwidget.h"
 #include "ui_replayteamwidget.h"
-#include "protobuf/status.pb.h"
+#include "src/protobuf/status.pb.h"
 
 ReplayTeamWidget::ReplayTeamWidget(QWidget *parent) :
     QWidget(parent),

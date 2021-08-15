@@ -28,7 +28,7 @@
 #include "multiescapesampler.h"
 #include "standardsampler.h"
 #include "core/vector.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 #include <vector>
 
 class ProtobufFileSaver;

@@ -23,8 +23,8 @@
 
 #include <QObject>
 
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 
 class Integrator : public QObject
 {

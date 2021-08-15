@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "coordinatehelper.h"
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include <cmath>
 
 LocalSpeed::LocalSpeed(float v_s, float v_f, float omega) : v_s(v_s), v_f(v_f), omega(omega) {}

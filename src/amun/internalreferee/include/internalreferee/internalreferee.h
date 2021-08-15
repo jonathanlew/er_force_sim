@@ -21,9 +21,9 @@
 #ifndef INTERNALREFEREE_H
 #define INTERNALREFEREE_H
 
-#include "protobuf/command.h"
-#include "protobuf/ssl_referee.pb.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/ssl_referee.pb.h"
+#include "src/protobuf/status.h"
 #include <QObject>
 
 class InternalReferee : public QObject

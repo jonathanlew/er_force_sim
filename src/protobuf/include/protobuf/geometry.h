@@ -21,7 +21,7 @@
 #ifndef GEOMETRY_H
 #define GEOMETRY_H
 
-#include "protobuf/world.pb.h"
+#include "src/protobuf/world.pb.h"
 
 void geometrySetDefault(world::Geometry *geometry, bool useQuadField = true);
 

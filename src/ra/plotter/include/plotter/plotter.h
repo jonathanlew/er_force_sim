@@ -21,8 +21,8 @@
 #ifndef PLOTTER_H
 #define PLOTTER_H
 
-#include "protobuf/status.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/world.pb.h"
 #include <QDialog>
 #include <QSet>
 #include <QList>

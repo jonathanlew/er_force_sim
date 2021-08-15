@@ -24,7 +24,7 @@
 #include "core/vector.h"
 #include "obstacles.h"
 #include "alphatimetrajectory.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 #include <QVector>
 
 class WorldInformation

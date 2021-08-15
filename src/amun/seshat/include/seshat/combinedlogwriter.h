@@ -21,9 +21,9 @@
 #ifndef COMBINEDLOGWRITER_H
 #define COMBINEDLOGWRITER_H
 
-#include "protobuf/robot.pb.h"
-#include "protobuf/status.h"
-#include "protobuf/command.h"
+#include "src/protobuf/robot.pb.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
 
 #include <QString>
 #include <QObject>

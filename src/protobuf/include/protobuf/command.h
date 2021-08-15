@@ -21,7 +21,7 @@
 #ifndef COMMAND_H
 #define COMMAND_H
 
-#include "protobuf/command.pb.h"
+#include "src/protobuf/command.pb.h"
 #include <QtCore/QSharedPointer>
 
 //! @file command.h

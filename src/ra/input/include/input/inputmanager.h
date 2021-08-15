@@ -21,8 +21,8 @@
 #ifndef INPUTMANAGER_H
 #define INPUTMANAGER_H
 
-#include "protobuf/command.h"
-#include "protobuf/ssl_referee.pb.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/ssl_referee.pb.h"
 #include <QMap>
 #include <QStringList>
 #include <QPair>

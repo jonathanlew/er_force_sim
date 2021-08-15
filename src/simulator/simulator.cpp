@@ -28,14 +28,14 @@
 #include <cstdio>
 #include <cstdarg>
 
-#include "protobuf/ssl_simulation_robot_control.pb.h"
-#include "protobuf/ssl_simulation_robot_feedback.pb.h"
-#include "protobuf/ssl_simulation_custom_erforce_robot_spec.pb.h"
-#include "protobuf/sslsim.h"
-#include "protobuf/status.h"
-#include "protobuf/command.h"
-#include "protobuf/geometry.h"
-#include "protobuf/robot.h"
+#include "src/protobuf/ssl_simulation_robot_control.pb.h"
+#include "src/protobuf/ssl_simulation_robot_feedback.pb.h"
+#include "src/protobuf/ssl_simulation_custom_erforce_robot_spec.pb.h"
+#include "src/protobuf/sslsim.h"
+#include "src/protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/geometry.h"
+#include "src/protobuf/robot.h"
 #include "simulator/simulator.h"
 
 #include "core/timer.h"

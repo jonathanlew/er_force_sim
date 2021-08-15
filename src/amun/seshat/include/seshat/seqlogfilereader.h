@@ -21,7 +21,7 @@
 #ifndef SEQLOGFILEREADER_H
 #define SEQLOGFILEREADER_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QObject>
 #include <QString>
 #include <QDataStream>

@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "speedtracker.h"
-#include "protobuf/ssl_wrapper.pb.h"
+#include "src/protobuf/ssl_wrapper.pb.h"
 #include "robotfilter.h"
 #include "core/fieldtransform.h"
 

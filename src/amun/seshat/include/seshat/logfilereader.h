@@ -21,7 +21,7 @@
 #ifndef LOGFILEREADER_H
 #define LOGFILEREADER_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include "statussource.h"
 #include "seqlogfilereader.h"
 #include <QObject>

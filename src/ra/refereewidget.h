@@ -21,9 +21,9 @@
 #ifndef REFEREEWIDGET_H
 #define REFEREEWIDGET_H
 
-#include "protobuf/command.h"
-#include "protobuf/ssl_referee.pb.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/ssl_referee.pb.h"
+#include "src/protobuf/status.h"
 #include <memory>
 #include <QStringList>
 #include <QWidget>

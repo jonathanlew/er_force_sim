@@ -23,7 +23,7 @@
 
 #include "boundingbox.h"
 #include "linesegment.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 #include <QByteArray>
 #include <vector>
 

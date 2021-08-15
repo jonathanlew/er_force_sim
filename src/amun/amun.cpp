@@ -29,7 +29,7 @@
 #include "processor/transceiver.h"
 #include "processor/networktransceiver.h"
 #include "processor/integrator.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/geometry.h"
 #include "simulator/simulator.h"
 #include "strategy/script/debughelper.h"
 #include "strategy/strategyreplayhelper.h"

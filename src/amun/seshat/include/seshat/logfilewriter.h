@@ -21,7 +21,7 @@
 #ifndef LOGFILEWRITER_H
 #define LOGFILEWRITER_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include "logfilehasher.h"
 #include "statussource.h"
 #include <QObject>

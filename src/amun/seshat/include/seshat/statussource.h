@@ -21,7 +21,7 @@
 #ifndef STATUSSOURCE_H
 #define STATUSSOURCE_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QString>
 #include <QObject>
 

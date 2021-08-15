@@ -21,10 +21,10 @@
 #ifndef PROCESSOR_H
 #define PROCESSOR_H
 
-#include "protobuf/command.h"
-#include "protobuf/robotcommand.h"
-#include "protobuf/ssl_mixed_team.pb.h"
-#include "protobuf/status.h"
+#include "src/protobuf/command.h"
+#include "src/protobuf/robotcommand.h"
+#include "src/protobuf/ssl_mixed_team.pb.h"
+#include "src/protobuf/status.h"
 #include <QMap>
 #include <QPair>
 #include <QObject>

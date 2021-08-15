@@ -22,7 +22,7 @@
 
 #include "path/trajectorysampler.h"
 #include "path/parameterization.h"
-#include "protobuf/pathfinding.pb.h"
+#include "src/protobuf/pathfinding.pb.h"
 
 #include <vector>
 #include <functional>

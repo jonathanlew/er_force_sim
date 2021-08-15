@@ -25,7 +25,7 @@
 #include <QString>
 #include <QList>
 
-#include "protobuf/logfile.pb.h"
+#include "src/protobuf/logfile.pb.h"
 
 namespace Ui {
 class LogFileSelectionDialog;

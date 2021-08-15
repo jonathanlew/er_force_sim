@@ -21,9 +21,9 @@
 #ifndef ABSTRACTBALLFILTER_H
 #define ABSTRACTBALLFILTER_H
 
-#include "protobuf/ssl_detection.pb.h"
-#include "protobuf/debug.pb.h"
-#include "protobuf/world.pb.h"
+#include "src/protobuf/ssl_detection.pb.h"
+#include "src/protobuf/debug.pb.h"
+#include "src/protobuf/world.pb.h"
 #include "kalmanfilter.h"
 #include "robotfilter.h"
 

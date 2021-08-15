@@ -1,9 +1,9 @@
 syntax = "proto2";
 option cc_enable_arenas = true;
 
-import "protobuf/robot.proto";
-import "protobuf/ssl_mixed_team.proto";
-import "protobuf/ssl_wrapper.proto";
+import "src/protobuf/robot.proto";
+import "src/protobuf/ssl_mixed_team.proto";
+import "src/protobuf/ssl_wrapper.proto";
 
 package world;
 

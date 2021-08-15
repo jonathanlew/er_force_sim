@@ -22,9 +22,9 @@
 #include "ui_refereewidget.h"
 #include "strategysearch.h"
 #include "config/config.h"
-#include "protobuf/command.pb.h"
-#include "protobuf/gamestate.pb.h"
-#include "protobuf/ssl_referee.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/gamestate.pb.h"
+#include "src/protobuf/ssl_referee.pb.h"
 #include <google/protobuf/descriptor.h>
 #include <QSettings>
 #include <QSignalMapper>

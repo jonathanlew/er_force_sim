@@ -24,7 +24,7 @@
 #include <QObject>
 #include <QPair>
 #include <QQueue>
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include "statussource.h"
 
 namespace BufferedStatusSourceInternal {

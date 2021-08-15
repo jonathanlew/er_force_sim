@@ -23,7 +23,7 @@
 #define COMMAND_EVALUATOR_H
 
 #include "coordinatehelper.h"
-#include "protobuf/robot.pb.h"
+#include "src/protobuf/robot.pb.h"
 #include <QtGlobal>
 
 namespace amun { class DebugValues; }

@@ -21,7 +21,7 @@
 #ifndef SIMFIELD_H
 #define SIMFIELD_H
 
-#include "protobuf/world.pb.h"
+#include "src/protobuf/world.pb.h"
 #include <QtCore/QList>
 #include <btBulletDynamicsCommon.h>
 

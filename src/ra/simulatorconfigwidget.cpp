@@ -20,9 +20,9 @@
 
 #include "simulatorconfigwidget.h"
 #include "ui_simulatorconfigwidget.h"
-#include "protobuf/command.pb.h"
-#include "protobuf/ssl_simulation_custom_erforce_realism.pb.h"
-#include "protobuf/ssl_simulation_control.pb.h"
+#include "src/protobuf/command.pb.h"
+#include "src/protobuf/ssl_simulation_custom_erforce_realism.pb.h"
+#include "src/protobuf/ssl_simulation_control.pb.h"
 #include "config/config.h"
 #include <QCheckBox>
 #include <QDoubleSpinBox>

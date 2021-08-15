@@ -21,7 +21,7 @@
 #ifndef VISUALIZATIONWIDGET_H
 #define VISUALIZATIONWIDGET_H
 
-#include "protobuf/status.h"
+#include "src/protobuf/status.h"
 #include <QHash>
 #include <QSet>
 #include <QWidget>

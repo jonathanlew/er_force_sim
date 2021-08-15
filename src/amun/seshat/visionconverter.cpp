@@ -20,7 +20,7 @@
 
 #include "visionconverter.h"
 #include "visionlog/visionlogwriter.h"
-#include "protobuf/ssl_referee.h"
+#include "src/protobuf/ssl_referee.h"
 
 QString VisionExtractor::extractVision(StatusSource& source, const QString& saveFileLocation)
 {
