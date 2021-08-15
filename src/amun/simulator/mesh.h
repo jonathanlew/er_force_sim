@@ -21,10 +21,10 @@
 #ifndef MESH_H
 #define MESH_H
 
-#include <QMap>
-#include <QVector>
-#include <QVector3D>
-#include <QString>
+#include <QtCore/QMap>
+#include <QtCore/QVector>
+#include <QtGui/QVector3D>
+#include <QtCore/QString>
 
 namespace camun {
     namespace simulator {

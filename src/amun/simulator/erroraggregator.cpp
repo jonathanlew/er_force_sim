@@ -20,7 +20,7 @@
 
 #include "erroraggregator.h"
 #include "simulator.h"
-#include <QList>
+#include <QtCore/QList>
 
 
 using namespace camun::simulator;

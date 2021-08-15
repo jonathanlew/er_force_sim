@@ -21,7 +21,7 @@
 #ifndef FASTSIMULATOR_H
 #define FASTSIMULATOR_H
 
-#include <QtGlobal>
+#include <QtCore/QtGlobal>
 #include <core/timer.h>
 #include <functional>
 

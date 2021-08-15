@@ -24,7 +24,7 @@
 #include "protobuf/command.pb.h"
 #include "protobuf/robot.pb.h"
 #include "protobuf/sslsim.h"
-#include <QList>
+#include <QtCore/QList>
 #include <btBulletDynamicsCommon.h>
 
 class RNG;

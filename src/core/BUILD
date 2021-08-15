@@ -11,3 +11,9 @@ cc_library(
         "@qt//:qt_widgets",
     ],
 )
+
+cc_library(
+    name = "core_includes_for_external",
+    hdrs = glob(["include/core/*.h"]),
+    strip_include_prefix = "include/",
+)

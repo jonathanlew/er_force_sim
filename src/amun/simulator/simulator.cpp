@@ -28,10 +28,10 @@
 #include "simfield.h"
 #include "simrobot.h"
 #include "erroraggregator.h"
-#include <QTimer>
+#include <QtCore/QTimer>
 #include <algorithm>
-#include <QtDebug>
-#include <QVector>
+#include <QtCore/QtDebug>
+#include <QtCore/QVector>
 
 using namespace camun::simulator;
 

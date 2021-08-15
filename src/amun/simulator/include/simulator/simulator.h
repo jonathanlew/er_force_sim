@@ -24,11 +24,11 @@
 #include "protobuf/command.h"
 #include "protobuf/status.h"
 #include "protobuf/sslsim.h"
-#include <QList>
-#include <QMap>
-#include <QPair>
-#include <QQueue>
-#include <QByteArray>
+#include <QtCore/QList>
+#include <QtCore/QMap>
+#include <QtCore/QPair>
+#include <QtCore/QQueue>
+#include <QtCore/QByteArray>
 #include <tuple>
 
 // higher values break the rolling friction of the ball

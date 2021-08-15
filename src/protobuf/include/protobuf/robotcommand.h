@@ -22,7 +22,7 @@
 #define ROBOTCOMMAND_H
 
 #include "protobuf/robot.pb.h"
-#include <QSharedPointer>
+#include <QtCore/QSharedPointer>
 
 //! @file robotcommand.h
 //! @addtogroup protobuf

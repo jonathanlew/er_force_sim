@@ -25,7 +25,7 @@
 #include "core/vector.h"
 #include "protobuf/ssl_detection.pb.h"
 #include <cmath>
-#include <QDebug>
+#include <QtCore/QDebug>
 
 using namespace camun::simulator;
 

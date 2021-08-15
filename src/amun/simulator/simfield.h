@@ -22,7 +22,7 @@
 #define SIMFIELD_H
 
 #include "protobuf/world.pb.h"
-#include <QList>
+#include <QtCore/QList>
 #include <btBulletDynamicsCommon.h>
 
 namespace camun {

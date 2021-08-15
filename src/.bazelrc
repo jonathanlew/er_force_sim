@@ -1,6 +1,8 @@
 # We want bazel to output the results of our gtests
 test --test_output=all
 
+build --cxxopt='-std=c++17'
+
 # Add warnings to Thunderbots code only
 build --per_file_copt=//software/.*,//shared/.*,//firmware/.*@-Wall,-Wextra,-Wconversion,-Wno-unused-parameter
 

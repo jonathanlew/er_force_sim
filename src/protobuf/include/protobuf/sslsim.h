@@ -23,7 +23,7 @@
 
 #include "protobuf/ssl_simulation_robot_control.pb.h"
 #include "protobuf/ssl_simulation_error.pb.h"
-#include <QSharedPointer>
+#include <QtCore/QSharedPointer>
 
 typedef QSharedPointer<sslsim::RobotControl> SSLSimRobotControl;
 typedef QSharedPointer<sslsim::SimulatorError> SSLSimError;

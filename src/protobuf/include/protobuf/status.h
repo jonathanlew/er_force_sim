@@ -22,7 +22,7 @@
 #define STATUS_H
 
 #include "protobuf/status.pb.h"
-#include <QSharedPointer>
+#include <QtCore/QSharedPointer>
 
 //! @file status.h
 //! @addtogroup protobuf

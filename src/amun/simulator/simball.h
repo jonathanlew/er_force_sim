@@ -25,7 +25,7 @@
 #include "protobuf/sslsim.h"
 #include <btBulletDynamicsCommon.h>
 #include "simfield.h"
-#include <QObject>
+#include <QtCore/QObject>
 
 static const float BALL_RADIUS = 0.0215f;
 static const float BALL_MASS = 0.046f;

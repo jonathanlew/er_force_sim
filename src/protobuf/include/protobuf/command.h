@@ -22,7 +22,7 @@
 #define COMMAND_H
 
 #include "protobuf/command.pb.h"
-#include <QSharedPointer>
+#include <QtCore/QSharedPointer>
 
 //! @file command.h
 //! @addtogroup protobuf
