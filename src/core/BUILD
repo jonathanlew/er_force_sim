@@ -6,8 +6,8 @@ cc_library(
     hdrs = glob(["include/core/*.h"]),
     strip_include_prefix = "include/core/",
     deps = [
-            "@qt//:qt_core",
-            "@qt//:qt_gui",
-            "@qt//:qt_widgets",
-            ],
+        "@qt//:qt_core",
+        "@qt//:qt_gui",
+        "@qt//:qt_widgets",
+    ],
 )
