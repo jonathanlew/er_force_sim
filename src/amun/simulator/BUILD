@@ -15,6 +15,7 @@ cc_library(
         "@qt//:qt_gui",
         "@qt//:qt_widgets",
     ],
+    linkstatic = True,
 )
 
 cc_library(
@@ -24,4 +25,5 @@ cc_library(
     deps = [
         "//src/core:core_includes_for_external",
     ],
+    linkstatic = True,
 )

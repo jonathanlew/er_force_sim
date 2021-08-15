@@ -4,10 +4,10 @@ test --test_output=all
 build --cxxopt='-std=c++17'
 
 # Add warnings to Thunderbots code only
-build --per_file_copt=//software/.*,//shared/.*,//firmware/.*@-Wall,-Wextra,-Wconversion,-Wno-unused-parameter
+#build --per_file_copt=//software/.*,//shared/.*,//firmware/.*@-Wall,-Wextra,-Wconversion,-Wno-unused-parameter
 
 # Warn variable length arrays only when compiling cpp
-build --per_file_copt=.*\.cpp@-Wvla
+build --per_file_copt=.*\.cpp@-Wvla,-Wno-undef
 
 # Use a local directory as a remote cache. This shares artifacts when switching
 # between git branches or workspaces for the same project.

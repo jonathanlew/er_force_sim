@@ -10,6 +10,28 @@ cc_library(
         "@qt//:qt_gui",
         "@qt//:qt_widgets",
     ],
+    linkstatic = True,
+)
+
+cc_library(
+    name = "timer",
+    srcs = ["timer.cpp"],
+    hdrs = ["include/core/timer.h"],
+    strip_include_prefix = "include/core/",
+    deps = [
+        "@qt//:qt_core",
+        "@qt//:qt_gui",
+        "@qt//:qt_widgets",
+    ],
+    #linkstatic = True,
+)
+
+cc_binary(
+    name = "timer_main",
+    srcs = ["timer_main.cpp"],
+    deps = [
+            "timer",
+            ],
 )
 
 cc_library(
@@ -17,4 +39,5 @@ cc_library(
     hdrs = glob(["include/core/*.h"]),
     strip_include_prefix = "include/",
     deps = ["core"],
+    linkstatic = True,
 )
