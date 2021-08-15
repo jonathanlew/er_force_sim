@@ -2,7 +2,7 @@ package(default_visibility = ["//visibility:public"])
 
 cc_library(
     name = "core",
-    srcs = glob(["*.cpp"]),
+    srcs = glob(["*.cpp"], exclude = ["timer_main.cpp"]),
     hdrs = glob(["include/core/*.h"]),
     strip_include_prefix = "include/core/",
     deps = [
