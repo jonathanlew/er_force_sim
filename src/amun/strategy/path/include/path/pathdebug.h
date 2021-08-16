@@ -22,7 +22,7 @@
 #define PATHDEBUG_H
 
 #include "src/protobuf/debug.pb.h"
-#include "core/vector.h"
+#include "src/core/vector.h"
 #include "boundingbox.h"
 #include "alphatimetrajectory.h"
 #include <QObject>

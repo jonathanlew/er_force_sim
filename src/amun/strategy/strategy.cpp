@@ -23,7 +23,7 @@
 #include "strategy.h"
 #include "strategy/script/debughelper.h"
 #include "strategy/script/compilerregistry.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "config/config.h"
 #include "src/protobuf/geometry.h"
 #include "src/protobuf/ssl_game_controller_team.pb.h"

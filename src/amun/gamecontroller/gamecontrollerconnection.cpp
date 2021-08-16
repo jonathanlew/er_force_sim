@@ -21,7 +21,7 @@
 #include <cstdint>
 
 #include "gamecontrollerconnection.h"
-#include "core/sslprotocols.h"
+#include "src/core/sslprotocols.h"
 
 static constexpr std::uint16_t getExternalPort(bool isAutoref) {
     return isAutoref ? SSL_AUTOREF_TO_GC_PORT : SSL_TEAM_TO_GC_PORT;

@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "gtest/gtest.h"
-#include "core/run_out_of_scope.h"
-#include "core/run_out_of_scope.h"
+#include "src/core/run_out_of_scope.h"
+#include "src/core/run_out_of_scope.h"
 
 static int roosTestInt;
 

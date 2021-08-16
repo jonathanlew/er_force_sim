@@ -29,7 +29,7 @@
 #include "src/protobuf/command.h"
 #include "src/protobuf/ssl_gc_ci.pb.h"
 #include "src/protobuf/ssl_game_controller_auto_ref.pb.h"
-#include "core/vector.h"
+#include "src/core/vector.h"
 
 class Timer;
 class SSLVisionTracked;

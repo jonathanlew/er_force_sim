@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "abstractstrategyscript.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include <QTcpSocket>
 #include <google/protobuf/util/delimited_message_util.h>
 #include "compilerregistry.h"

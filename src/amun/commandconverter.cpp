@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "commandconverter.h"
-#include "core/timer.h"
-#include "core/coordinates.h"
+#include "src/core/timer.h"
+#include "src/core/coordinates.h"
 #include <cmath>
 
 void CommandConverter::handleRadioCommands(const QList<robot::RadioCommand> &commands, qint64 processingStart) {

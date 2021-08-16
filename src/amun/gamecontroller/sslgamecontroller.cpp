@@ -21,9 +21,9 @@
 #include "sslgamecontroller.h"
 #include "sslvisiontracked.h"
 #include "src/protobuf/geometry.h"
-#include "core/timer.h"
-#include "core/vector.h"
-#include "core/coordinates.h"
+#include "src/core/timer.h"
+#include "src/core/vector.h"
+#include "src/core/coordinates.h"
 #include "config/config.h"
 
 #include <QDebug>

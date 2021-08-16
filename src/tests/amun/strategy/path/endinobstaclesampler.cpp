@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "gtest/gtest.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 #include "path/endinobstaclesampler.h"
 #include "path/worldinformation.h"
 #include "path/alphatimetrajectory.h"

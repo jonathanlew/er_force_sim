@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "escapeobstaclesampler.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 bool EscapeObstacleSampler::TrajectoryRating::isBetterThan(const TrajectoryRating &other)
 {

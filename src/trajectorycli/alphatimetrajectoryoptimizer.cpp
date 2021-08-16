@@ -22,7 +22,7 @@
 #include "path/parameterization.h"
 #include "path/trajectorypath.h"
 #include "path/alphatimetrajectory.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 #include <memory>
 

@@ -27,7 +27,7 @@
 #include "endinobstaclesampler.h"
 #include "multiescapesampler.h"
 #include "standardsampler.h"
-#include "core/vector.h"
+#include "src/core/vector.h"
 #include "src/protobuf/pathfinding.pb.h"
 #include <vector>
 

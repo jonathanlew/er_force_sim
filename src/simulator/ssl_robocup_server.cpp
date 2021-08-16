@@ -20,8 +20,8 @@
 */
 //========================================================================
 #include "ssl_robocup_server.h"
-#include <QtNetwork>
-#include <QColor>
+#include <QtNetwork/QtNetwork>
+#include <QtGui/QColor>
 #include <iostream>
 
 using namespace std;

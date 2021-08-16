@@ -21,7 +21,7 @@
 #ifndef LINESEGMENT_H
 #define LINESEGMENT_H
 
-#include "core/vector.h"
+#include "src/core/vector.h"
 #include <algorithm>
 #include <cassert>
 

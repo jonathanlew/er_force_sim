@@ -18,12 +18,12 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 #include <clocale>
-#include <QCoreApplication>
-#include <QUdpSocket>
-#include <QThread>
-#include <QNetworkDatagram>
-#include <QCommandLineParser>
-#include <QTime>
+#include <QtCore/QCoreApplication>
+#include <QtNetwork/QUdpSocket>
+#include <QtCore/QThread>
+#include <QtNetwork/QNetworkDatagram>
+#include <QtCore/QCommandLineParser>
+#include <QtCore/QTime>
 #include <cmath>
 #include <cstdio>
 #include <cstdarg>
@@ -36,13 +36,13 @@
 #include "src/protobuf/command.h"
 #include "src/protobuf/geometry.h"
 #include "src/protobuf/robot.h"
-#include "simulator/simulator.h"
+#include "src/amun/simulator/simulator.h"
 
-#include "core/timer.h"
-#include "core/run_out_of_scope.h"
-#include "core/configuration.h"
-#include "core/coordinates.h"
-#include "core/sslprotocols.h"
+#include "src/core/timer.h"
+#include "src/core/run_out_of_scope.h"
+#include "src/core/configuration.h"
+#include "src/core/coordinates.h"
+#include "src/core/sslprotocols.h"
 
 #include "ssl_robocup_server.h"
 
@@ -645,7 +645,7 @@ void SimProxy::handleCommand(const Command &command) {
     emit gotCommand(command);
 }
 
-#include "simulator.moc"
+//#include "src/simulator/simulator.moc"
 
 
 

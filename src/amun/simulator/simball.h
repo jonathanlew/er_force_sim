@@ -22,7 +22,7 @@
 #define SIMBALL_H
 
 #include "src/protobuf/command.pb.h"
-#include "protobuf/sslsim.h"
+#include "src/protobuf/sslsim.h"
 #include <btBulletDynamicsCommon.h>
 #include "simfield.h"
 #include <QtCore/QObject>

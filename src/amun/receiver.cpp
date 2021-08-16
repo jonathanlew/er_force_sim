@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "receiver.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include <QNetworkInterface>
 #include <QNetworkProxy>
 #include <QUdpSocket>

@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "abstractpath.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 #include <QDebug>
 
 AbstractPath::AbstractPath(uint32_t rng_seed) :

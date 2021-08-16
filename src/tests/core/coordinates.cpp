@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "gtest/gtest.h"
-#include "core/coordinates.h"
-#include "core/vector.h"
+#include "src/core/coordinates.h"
+#include "src/core/vector.h"
 #include "src/protobuf/ssl_simulation_control.pb.h"
 #include "src/protobuf/status.h"
 

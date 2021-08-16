@@ -51,9 +51,8 @@ http_archive(
 # Qt bazel rules from https://github.com/justbuchanan/bazel_rules_qt
 git_repository(
     name = "bazel_rules_qt",
-    commit = "3f949bf4b5dcae2941ba3b71b3ddeb5d39637907",
+    commit = "7665177f47bf514176d5f8575a7334f030203e3d",
     remote = "https://github.com/justbuchanan/bazel_rules_qt.git",
-    shallow_since = "1549966854 -0800",
 )
 
 # Right now qt5 is installed on the system using the setup_software.sh script

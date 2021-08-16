@@ -19,7 +19,7 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "firmware-interface/radiocommand.h"
 #include "firmware-interface/transceiver2012.h"
 #include "firmware-interface/radiocommand2014.h"

@@ -22,7 +22,7 @@
 #define BALLFILTER_H
 
 #include "filter.h"
-#include "core/fieldtransform.h"
+#include "src/core/fieldtransform.h"
 #include "kalmanfilter.h"
 #include "abstractballfilter.h"
 #include "src/protobuf/debug.pb.h"

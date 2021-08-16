@@ -20,7 +20,7 @@
 
 #include "gtest/gtest.h"
 #include "gtest/gtest-param-test.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 #include <math.h>
 

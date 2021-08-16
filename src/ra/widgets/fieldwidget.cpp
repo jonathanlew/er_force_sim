@@ -45,7 +45,7 @@
 #include "fieldwidget.h"
 #include "virtualfieldsetupdialog.h"
 
-#include "core/coordinates.h"
+#include "src/core/coordinates.h"
 
 #ifdef QTSVG_FOUND
 #include <QSvgGenerator>

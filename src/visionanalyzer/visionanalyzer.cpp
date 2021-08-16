@@ -28,7 +28,7 @@
 #include "strategy/strategy.h"
 #include "strategy/strategyreplayhelper.h"
 #include "strategy/script/compilerregistry.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "seshat/logfilewriter.h"
 #include "visionlog/visionlogreader.h"
 #include "visionlog/messagetype.h"

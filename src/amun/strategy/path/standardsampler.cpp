@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "standardsampler.h"
-#include "core/rng.h"
-#include "core/protobuffilereader.h"
+#include "src/core/rng.h"
+#include "src/core/protobuffilereader.h"
 #include "config/config.h"
 #include <QDebug>
 

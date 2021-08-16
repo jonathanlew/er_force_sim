@@ -20,7 +20,7 @@
 
 #include "configdialog.h"
 #include "ui_configdialog.h"
-#include "core/sslprotocols.h"
+#include "src/core/sslprotocols.h"
 #include <QPushButton>
 #include <QSettings>
 

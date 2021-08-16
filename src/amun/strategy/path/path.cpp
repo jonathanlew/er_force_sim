@@ -21,7 +21,7 @@
 
 #include "path.h"
 #include "kdtree.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 #include <cstdlib>
 #include <sys/time.h>
 #include <QDebug>

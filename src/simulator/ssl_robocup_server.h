@@ -22,8 +22,8 @@
 #ifndef ROBOCUP_SSL_SERVER_H
 #define ROBOCUP_SSL_SERVER_H
 #include <string>
-#include <QMutex>
-#include <QObject>
+#include <QtCore/QMutex>
+#include <QtCore/QObject>
 using namespace std;
 
 class QUdpSocket;

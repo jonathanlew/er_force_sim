@@ -34,7 +34,7 @@
 #include "logopener.h"
 #include "loglabel.h"
 #include "logfileselectiondialog.h"
-#include "core/configuration.h"
+#include "src/core/configuration.h"
 #include <QFile>
 #include <QFileDialog>
 #include <QLabel>

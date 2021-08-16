@@ -32,7 +32,7 @@
 #include "strategy/strategyreplayhelper.h"
 #include "strategy/script/compilerregistry.h"
 #include "timingstatistics.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "replaytestrunner.h"
 
 static std::ofstream fileStream;

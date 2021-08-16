@@ -18,8 +18,8 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 
-#include "core/rng.h"
-#include "core/coordinates.h"
+#include "src/core/rng.h"
+#include "src/core/coordinates.h"
 #include "mesh.h"
 #include "src/protobuf/ssl_detection.pb.h"
 #include "simball.h"

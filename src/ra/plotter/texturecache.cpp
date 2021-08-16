@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "texturecache.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 
 TextureCache::TextureCache(QGLContext *context) :
     m_context(context),

@@ -19,11 +19,11 @@
  ***************************************************************************/
 
 #include "simulator.h"
-#include "core/rng.h"
-#include "core/timer.h"
-#include "core/coordinates.h"
+#include "src/core/rng.h"
+#include "src/core/timer.h"
+#include "src/core/coordinates.h"
 #include "src/protobuf/ssl_wrapper.pb.h"
-#include "protobuf/geometry.h"
+#include "src/protobuf/geometry.h"
 #include "simball.h"
 #include "simfield.h"
 #include "simrobot.h"

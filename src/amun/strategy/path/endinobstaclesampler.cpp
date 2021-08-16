@@ -20,7 +20,7 @@
 
 #include "endinobstaclesampler.h"
 #include "parameterization.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 #include <QDebug>
 

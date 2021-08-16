@@ -20,8 +20,8 @@
 
 #include "common.h"
 #include "path/standardsampler.h"
-#include "core/protobuffilesaver.h"
-#include "core/rng.h"
+#include "src/core/protobuffilesaver.h"
+#include "src/core/rng.h"
 
 const static float GENERAL_MAX_SPEED = 3.5f;
 

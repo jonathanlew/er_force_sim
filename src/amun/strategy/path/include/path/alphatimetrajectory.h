@@ -21,7 +21,7 @@
 #ifndef ALPHATIMETRAJECTORY_H
 #define ALPHATIMETRAJECTORY_H
 
-#include "core/vector.h"
+#include "src/core/vector.h"
 #include "speedprofile.h"
 #include <vector>
 

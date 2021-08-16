@@ -21,7 +21,7 @@
 #include "common.h"
 #include "path/parameterization.h"
 #include "path/endinobstaclesampler.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 #include <iostream>
 #include <memory>

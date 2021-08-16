@@ -1,3 +1,5 @@
+load("@bazel_rules_qt//:qt.bzl", "qt_cc_library")
+
 package(default_visibility = ["//visibility:public"])
 
 load("@rules_proto//proto:defs.bzl", "proto_library")
@@ -20,26 +22,15 @@ cc_proto_library(
     deps = [":protobuf_proto_lib"],
 )
 
-cc_library(
+qt_cc_library(
     name = "protobuf",
     srcs = glob(["*.cpp"]),
-    hdrs = glob(["include/protobuf/*.h"]),
-    strip_include_prefix = "include/protobuf/",
+    hdrs = glob(["*.h"]),
+    linkstatic = True,
     deps = [
         ":protobuf_cc_lib",
         "@qt//:qt_core",
         "@qt//:qt_gui",
         "@qt//:qt_widgets",
     ],
-    linkstatic = True,
-)
-
-cc_library(
-    name = "protobuf_includes_for_external",
-    hdrs = glob(["include/protobuf/*.h"]),
-    strip_include_prefix = "include/",
-    deps = [
-"protobuf"
-            ],
-    linkstatic = True,
 )

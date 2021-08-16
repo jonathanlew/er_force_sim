@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "sslvisiontracked.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 SSLVisionTracked::SSLVisionTracked()
 {

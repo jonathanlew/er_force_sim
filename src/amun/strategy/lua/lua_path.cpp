@@ -23,7 +23,7 @@
 #include "lua_protobuf.h"
 #include "lua.h"
 #include "path/path.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "src/protobuf/debug.pb.h"
 #include "src/protobuf/robot.pb.h"
 

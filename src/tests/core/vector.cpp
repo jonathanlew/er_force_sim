@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "gtest/gtest.h"
-#include "core/vector.h"
+#include "src/core/vector.h"
 
 TEST(Vector, Constructor) {
     Vector v(1, 0);

@@ -18,9 +18,9 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>. *
  ***************************************************************************/
 #include "networktransceiver.h"
-#include "core/timer.h"
-#include "core/run_out_of_scope.h"
-#include "core/coordinates.h"
+#include "src/core/timer.h"
+#include "src/core/run_out_of_scope.h"
+#include "src/core/coordinates.h"
 #include "src/protobuf/grsim_commands.pb.h"
 #include "src/protobuf/grsim_replacement.pb.h"
 #include "src/protobuf/geometry.h"

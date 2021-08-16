@@ -20,9 +20,9 @@
 
 #include "simball.h"
 #include "simulator.h"
-#include "core/rng.h"
-#include "core/coordinates.h"
-#include "core/vector.h"
+#include "src/core/rng.h"
+#include "src/core/coordinates.h"
+#include "src/core/vector.h"
 #include "src/protobuf/ssl_detection.pb.h"
 #include <cmath>
 #include <QtCore/QDebug>

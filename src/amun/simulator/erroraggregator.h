@@ -22,7 +22,7 @@
 #define SIM_AGGREGATOR_H
 #include <QtCore/QObject>
 #include <QtCore/QMap>
-#include "protobuf/sslsim.h"
+#include "src/protobuf/sslsim.h"
 
 namespace camun {
     namespace simulator {

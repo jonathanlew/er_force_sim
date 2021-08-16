@@ -25,8 +25,8 @@
 #include "testtools.h"
 #include "config/config.h"
 #include "seshat/combinedlogwriter.h"
-#include "core/timer.h"
-#include "core/configuration.h"
+#include "src/core/timer.h"
+#include "src/core/configuration.h"
 #include "strategy/strategy.h"
 #include "strategy/script/compilerregistry.h"
 

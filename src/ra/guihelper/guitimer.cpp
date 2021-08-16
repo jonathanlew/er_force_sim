@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "guitimer.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include <QTimer>
 
 GuiTimerBase::GuiTimerBase(QObject *parent) : QObject(parent), m_isActive(false), m_baseInterval(30)

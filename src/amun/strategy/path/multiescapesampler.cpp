@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "multiescapesampler.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 MultiEscapeSampler::MultiEscapeSampler(RNG *rng, const WorldInformation &world, PathDebug &debug) :
     TrajectorySampler(rng, world, debug),

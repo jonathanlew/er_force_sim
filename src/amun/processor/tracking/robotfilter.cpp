@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "robotfilter.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 
 const qint64 PROCESSOR_TICK_DURATION = 10 * 1000 * 1000;
 const float MAX_LINEAR_ACCELERATION = 10.;

@@ -25,7 +25,7 @@
 #include <QDebug>
 
 #include "common.h"
-#include "core/protobuffilereader.h"
+#include "src/core/protobuffilereader.h"
 #include "src/protobuf/pathfinding.pb.h"
 
 

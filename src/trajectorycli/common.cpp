@@ -19,7 +19,7 @@
  ***************************************************************************/
 
 #include "common.h"
-#include "core/rng.h"
+#include "src/core/rng.h"
 
 void optimizeParameters(std::vector<Situation> situations, ParameterCategory category,
                         std::function<void(std::vector<Situation>&)> initialRun,

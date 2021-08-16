@@ -19,8 +19,8 @@
  ***************************************************************************/
 
 #include "trajectorypath.h"
-#include "core/rng.h"
-#include "core/protobuffilesaver.h"
+#include "src/core/rng.h"
+#include "src/core/protobuffilesaver.h"
 #include <QDebug>
 
 

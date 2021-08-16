@@ -22,7 +22,7 @@
 #include "lua_amun.h"
 #include "lua_path.h"
 #include "lua_protobuf.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 #include "strategy/script/debughelper.h"
 #include "strategy/script/filewatcher.h"
 #include "strategy/script/scriptstate.h"

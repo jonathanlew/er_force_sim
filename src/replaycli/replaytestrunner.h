@@ -24,7 +24,7 @@
 #include <QObject>
 
 #include "strategy/strategy.h"
-#include "core/timer.h"
+#include "src/core/timer.h"
 
 class CompilerRegistry;
 

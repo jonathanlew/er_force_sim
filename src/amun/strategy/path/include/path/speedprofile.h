@@ -21,7 +21,7 @@
 #ifndef SPEEDPROFILE_H
 #define SPEEDPROFILE_H
 
-#include "core/vector.h"
+#include "src/core/vector.h"
 #include "boundingbox.h"
 #include "obstacles.h" // for TrajectoryPoint
 
