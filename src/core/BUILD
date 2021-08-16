@@ -11,7 +11,6 @@ qt_cc_library(
     hdrs = glob(["*.h"]),
     linkstatic = True,
     deps = [
-        "//src/config",
         "@qt//:qt_core",
         "@qt//:qt_gui",
         "@qt//:qt_widgets",
